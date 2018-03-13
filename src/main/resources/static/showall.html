@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:v-if="https://cdn.jsdelivr.net/npm/vue">
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript - read JSON from URL</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+</head>
+<header>
+    <div></div>
+</header>
+<body>
+
+<div id="add" >
+    <input id="id" placeholder="Id" type="number" v-model="id"/> <br>
+    <input id="name" placeholder="Name" v-model="name"/> <br>
+    <input id="description" placeholder="Description" v-model="description"/> <br>
+    <button id="commit">Add</button>
+    <button id="delete">Del</button>
+    <button id="update">Upd</button>
+</div>
+
+<table id="table">
+    <tr id="tr" class="listIn" v-for="i in arrays">
+        <td id="tdId">{{i.id}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.description}}</td>
+
+    </tr>
+</table>
+
+<script type="application/javascript" src="add.js"></script>
+<script type="application/javascript" src="update.js"></script>
+<script type="application/javascript" src="delete.js"></script>
+<script type="application/javascript" src="get.js"></script>
+
+</body>
+</html>
