@@ -1,7 +1,7 @@
-package com.example.demo.controllers;
+package com.example.demo.controller;
 
-import com.example.demo.Service.TopService;
-import com.example.demo.obj.Top;
+import com.example.demo.model.Top;
+import com.example.demo.service.TopService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

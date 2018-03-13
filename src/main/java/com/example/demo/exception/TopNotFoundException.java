@@ -1,7 +1,4 @@
-package com.example.demo.exceptions;
-
-import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.ResponseStatus;
+package com.example.demo.exception;
 
 public class TopNotFoundException extends RuntimeException{
     public TopNotFoundException(String message) {

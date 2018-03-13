@@ -1,12 +1,12 @@
-package com.example.demo.Service;
+package com.example.demo.service;
 
-import com.example.demo.exceptions.TopNotFoundException;
-import com.example.demo.obj.Top;
+import com.example.demo.exception.TopNotFoundException;
+import com.example.demo.model.Top;
 import com.example.demo.repository.TopRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.List;
 
 @Service
 public class TopService {
